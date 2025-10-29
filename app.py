@@ -3,13 +3,14 @@ import requests
 import pandas as pd
 import matplotlib.pyplot as plt
 from io import BytesIO
+import os
+API_TOKEN = os.getenv("API_TOKEN")
 
 # -------------------------------
 # ⚙️ CONFIGURATION
 # -------------------------------
 BASE_ID = "mu16td4m2vofa0u"  # ✅ Table ID
 VIEW_ID = "vwqd3w3dqtpllu75"  # ✅ View ID
-API_TOKEN = "D4YpGcbqkbUQ3fWey5oRWLX_v279dfKxqDrGqxup"  # ✅ Your token
 BASE_URL = "https://app.nocodb.com"  # ✅ Hosted NocoDB domain
 
 
